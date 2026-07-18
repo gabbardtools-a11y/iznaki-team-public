@@ -1,0 +1,77 @@
+# 🚫 .gitignore — защита от случайной утечки секретов
+# Этот файл НЕ даёт секретам попасть в публичную репу.
+
+# === Пароли и ключи ===
+*.env
+.env
+.env.local
+.env.production
+*.pem
+*.key
+*.p12
+id_rsa
+id_rsa.pub
+*credentials*
+*secret*
+
+# === Конфиги с токенами ===
+ecosystem.config.js
+Caddyfile
+*.service
+
+# === Реальные данные продавцов (если случайно скопируем) ===
+data-real.ts
+*real-contacts*
+*seller-data*
+
+# === Логи (могут содержать чувствительное) ===
+*.log
+/logs/
+pm2-logs/
+
+# === Бэкапы ===
+*.gz
+*.tar
+*.zip
+backup*
+/backups/
+
+# === БД ===
+*.db
+*.sqlite
+*.sqlite3
+/prisma/migrations/dev.db*
+
+# === Node.js ===
+node_modules/
+.next/
+/dist/
+/build/
+*.tsbuildinfo
+
+# === OS ===
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# === IDE ===
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# === Временные файлы ===
+*.tmp
+*.bak
+*.old
+*~
+
+# === Изображения с водяными знаками / приватные ===
+/private-images/
+/watermarked/
+
+# === Файлыinbox которые не должны пушиться ===
+inbox/*/draft-*
+inbox/*/temp-*
+inbox/*/*.tmp
