@@ -32,7 +32,7 @@
 
 VPS: 188.127.227.250 (Smartape)
 Логин: root
-Пароль: bF2bB7eT4wdZ
+Пароль: [REDACTED:VPS_PASSWORD]
 RAM: 10 GB, Disk: 20 GB
 OS: Ubuntu 26.04, Node v22.22.1, PM2 v7.0.3
 
@@ -41,7 +41,7 @@ OS: Ubuntu 26.04, Node v22.22.1, PM2 v7.0.3
 import paramiko
 c = paramiko.SSHClient()
 c.set_missing_host_key_policy(paramiko.AutoAddPolicy())
-c.connect('188.127.227.250', username='root', password='bF2bB7eT4wdZ', timeout=15)
+c.connect('188.127.227.250', username='root', password='[REDACTED:VPS_PASSWORD]', timeout=15)
 ```
 
 CADDY БЛОКИРУЕТСЯ — используй base64:
@@ -187,7 +187,7 @@ import paramiko, time, os
 
 HOST = '188.127.227.250'
 USER = 'root'
-PASS = 'bF2bB7eT4wdZ'
+PASS = '[REDACTED:VPS_PASSWORD]'
 
 LOCAL_FILES = [
     ('/home/z/my-project/src/...', '/var/www/iznaki/src/...'),
@@ -196,7 +196,7 @@ LOCAL_FILES = [
 
 client = paramiko.SSHClient()
 client.set_missing_host_key_policy(paramiko.AutoAddPolicy())
-client.connect(HOST, username=USER, password=PASS, timeout=15)
+client.connect(HOST, username=USER, password=[REDACTED] timeout=15)
 
 # 1. SFTP upload
 sftp = client.open_sftp()
@@ -298,7 +298,7 @@ Sandbox ──SSH──▶ VPS (есть PAT в remote) ──git push──▶ 
 import paramiko
 c = paramiko.SSHClient()
 c.set_missing_host_key_policy(paramiko.AutoAddPolicy())
-c.connect('188.127.227.250', username='root', password='bF2bB7eT4wdZ', timeout=15)
+c.connect('188.127.227.250', username='root', password='[REDACTED:VPS_PASSWORD]', timeout=15)
 
 sftp = c.open_sftp()
 sftp.put('/home/z/my-project/src/app/page.tsx', '/var/www/iznaki/src/app/page.tsx')
@@ -426,7 +426,7 @@ c.close()
 - Контекст команды: https://iznaki.ru/PROJECT-CONTEXT.md
 - История проекта: https://iznaki.ru/PROJECT-HISTORY.md
 - Двойной Захар: https://iznaki.ru/ZAKHAR-DUAL-AVATAR.md
-- ZIP (пароль 1w32q): https://iznaki.ru/iznaki-team-package.zip
+- ZIP (пароль: [REDACTED] https://iznaki.ru/iznaki-team-package.zip
 - GitHub docs: https://github.com/gabbardtools-a11y/iznaki-team-public
 - UptimeRobot: https://uptimerobot.com (аккаунт: akureg@ya.ru)
 
@@ -457,7 +457,7 @@ c.close()
 "Ты — Мастер Ибро. Прочитай свой файл сознания:
 (содержимое этого файла вставляется сюда)
 
-VPS: 188.127.227.250, root, bF2bB7eT4wdZ
+VPS: 188.127.227.250, root, [REDACTED:VPS_PASSWORD]
 Задача: [ОПИШИ ЗАДАЧУ]"
 
 Всё что нужно — в этом файле. Никаких внешних ссылок не требуется.
