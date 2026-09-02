@@ -30,7 +30,7 @@
 ```
 Хост:         188.127.227.250
 Пользователь: root
-Пароль:       bF2bB7eT4wdZ
+Пароль:       [REDACTED:VPS_PASSWORD]
 RAM:          3.8 GB
 Disk:         9.8 GB (КРИТИЧНО МАЛО! ~500 MB свободно)
 OS:           Ubuntu 26.04 LTS
