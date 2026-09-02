@@ -50,7 +50,7 @@ import paramiko, time, os
 
 HOST = '188.127.227.250'      # VPS IP
 USER = 'root'
-PASS = 'bF2bB7eT4wdZ'         # VPS пароль
+PASS = '[REDACTED:VPS_PASSWORD]'         # VPS пароль
 SITE_PATH = '/var/www/iznaki' # путь к проекту на VPS
 PM2_NAME = 'iznaki'           # имя процесса в PM2
 PORT = 3001                   # локальный порт для проверки
@@ -65,7 +65,7 @@ LOCAL_FILES = [
 print('[1/7] Connect')
 client = paramiko.SSHClient()
 client.set_missing_host_key_policy(paramiko.AutoAddPolicy())
-client.connect(HOST, username=USER, password=PASS, timeout=15)
+client.connect(HOST, username=USER, password=[REDACTED] timeout=15)
 
 print('[2/7] SFTP upload')
 sftp = client.open_sftp()
@@ -327,7 +327,7 @@ print('✅ Откатились. Код на GitHub не пострадал.')
 - **ЗАКОН №2 (знаки):** https://iznaki.ru/ZAKON-2-SIGNS.md
 - **ЗАКОН №3 (трёхъязычие):** https://iznaki.ru/ZAKON-3-I18N.md
 - **Сознание Мастера v4.1:** https://iznaki.ru/GUIDE-CONSCIOUSNESS-v4.md
-- **Emergency Backup:** https://iznaki.ru/iznaki-emergency-backup.zip (пароль: `1w32q`)
+- **Emergency Backup:** https://iznaki.ru/iznaki-emergency-backup.zip (пароль: [REDACTED]
 
 ---
 
