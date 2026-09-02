@@ -15,17 +15,22 @@
 iznaki-emergency-backup/
 ├── README-RESTORE.md              ← этот файл
 ├── consciousness/
-│   └── IBRO-CONSCIOUSNESS-v4.md   ← полное сознание Мастера Ибро v4.1
+│   └── IBRO-CONSCIOUSNESS-v4.md   ← полное сознание Мастера Ибро v4.2-FULL
+│                                    (со встроенными полными текстами всех 4 законов!)
 ├── laws/
 │   ├── ZAKON-1-VPS.md             ← ЗАКОН №1: VPS правила
 │   ├── ZAKON-2-SIGNS.md           ← ЗАКОН №2: добавление знаков (7 шагов)
 │   ├── ZAKON-3-I18N.md            ← ЗАКОН №3: трёхъязычие RU/EN/ZH
 │   └── ZAKON-4-DEPLOY.md          ← ЗАКОН №4: эталонный деплой
 ├── guides/
-│   └── GUIDE-PREVIEW-V4.md        ← гайд превью в чате
+│   ├── GUIDE-PREVIEW-V4.md        ← гайд превью в чате
+│   └── GUIDE-CONSCIOUSNESS-v3-legacy.md  ← старая v3 для истории
 ├── vps-credentials.md             ← пароли и доступы (NEVER publish public!)
-└── INSTRUCTIONS-RESTORE.md        ← пошаговая инструкция
+└── INSTRUCTIONS-RESTORE.md        ← (см. README-RESTORE.md)
 ```
+
+**Размер:** ~58 KB (сжатый), ~155 KB (распакованный)
+**Token-объём consciousness v4.2-FULL:** ~16K токенов — влезает в 128K контекст с запасом
 
 ---
 
@@ -122,7 +127,8 @@ iznaki-emergency-backup/
 | Что | URL | Доступ |
 |-----|-----|--------|
 | Этот README | https://iznaki.ru/README-RESTORE.md | public |
-| Сознание v4.1 | https://iznaki.ru/GUIDE-CONSCIOUSNESS-v4.md | public (без паролей!) |
+| Сознание v4.1 (public, lite) | https://iznaki.ru/GUIDE-CONSCIOUSNESS-v4.md | public (без паролей) |
+| Сознание v4.2-FULL (private) | в zip-архиве `consciousness/IBRO-CONSCIOUSNESS-v4.md` | запаролен `1w32q` |
 | ЗАКОН №1 | https://iznaki.ru/ZAKON-1-VPS.md | public |
 | ЗАКОН №2 | https://iznaki.ru/ZAKON-2-SIGNS.md | public |
 | ЗАКОН №3 | https://iznaki.ru/ZAKON-3-I18N.md | public |
