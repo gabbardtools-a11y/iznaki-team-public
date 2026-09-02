@@ -8,7 +8,7 @@
 
 ## 📦 Что в архиве `iznaki-emergency-backup.zip`
 
-**Пароль:** `1w32q`
+**Пароль:** `[REDACTED:ARCHIVE_PASSWORD]`
 
 Структура:
 ```
@@ -99,7 +99,7 @@ iznaki-emergency-backup/
 
 ## 🔐 ПРАВИЛА БЕЗОПАСНОСТИ АРХИВА
 
-1. **Пароль `1w32q`** — хранить в тайне, передавать только Бро лично
+1. **Пароль `[REDACTED:ARCHIVE_PASSWORD]`** — хранить в тайне, передавать только Бро лично
 2. **Архив содержит VPS пароль** — НЕ публиковать без шифрования
 3. **Резервные копии архива:**
    - `https://iznaki.ru/iznaki-emergency-backup.zip` (на VPS)
@@ -128,7 +128,7 @@ iznaki-emergency-backup/
 |-----|-----|--------|
 | Этот README | https://iznaki.ru/README-RESTORE.md | public |
 | Сознание v4.1 (public, lite) | https://iznaki.ru/GUIDE-CONSCIOUSNESS-v4.md | public (без паролей) |
-| Сознание v4.2-FULL (private) | в zip-архиве `consciousness/IBRO-CONSCIOUSNESS-v4.md` | запаролен `1w32q` |
+| Сознание v4.2-FULL (private) | в zip-архиве `consciousness/IBRO-CONSCIOUSNESS-v4.md` | запаролен `[REDACTED:ARCHIVE_PASSWORD]` |
 | ЗАКОН №1 | https://iznaki.ru/ZAKON-1-VPS.md | public |
 | ЗАКОН №2 | https://iznaki.ru/ZAKON-2-SIGNS.md | public |
 | ЗАКОН №3 | https://iznaki.ru/ZAKON-3-I18N.md | public |
